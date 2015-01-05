@@ -1,0 +1,39 @@
+# http://jekyllrb.com/docs/configuration/
+
+#
+name: 桉树
+
+# Where things are
+source: _posts
+destination: _site
+layouts: _layouts
+
+# Handling Reading
+encoding: utf-8
+markdown_ext: md
+
+# Conversion
+highlighter: pygments
+markdown: kramdown
+lis: true
+excerpt_separator: "\n\n"
+
+# Outputting
+# /:categories/:year/:month/:day/:title.html
+permalink: date
+
+github:
+    versions:
+        jekyll: 2.4.0
+        kramdown: 1.3.1
+        liquid: 2.6.1
+        maruku: 0.7.0
+        rdiscount: 2.1.7
+        redcarpet: 3.1.2
+        RedCloth: 4.2.9
+        jemoji: 0.3.0
+        jekyll-mentions: 0.1.3
+        jekyll-redirect-from: 0.6.2
+        jekyll-sitemap: 0.6.0
+        github-pages: 28
+        ruby: 2.1.2
