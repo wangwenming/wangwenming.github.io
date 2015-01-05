@@ -4,8 +4,7 @@
 name: 桉树
 
 # Where things are
-source: _posts
-destination: _site
+destination: _sites
 layouts: _layouts
 
 # Handling Reading
@@ -20,7 +19,7 @@ excerpt_separator: "\n\n"
 
 # Outputting
 # /:categories/:year/:month/:day/:title.html
-permalink: date
+permalink: /:categories/:year-:month-:day-:title.html
 
 github:
     versions:
