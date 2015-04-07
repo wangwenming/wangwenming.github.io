@@ -1,1 +1,10 @@
-default.html
+{% include header.html %}
+    <div class="row-fluid">
+      <div class="span8">
+        {{ content }}
+      </div>
+      <div class="span4">
+        {% include sidebar.html %}
+      </div>
+    </div>
+{% include footer.html %}
