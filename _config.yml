@@ -2,6 +2,8 @@
 
 #
 name: 桉树
+paginate: 5
+baseurl: /
 
 defaults:
     -
@@ -26,7 +28,7 @@ excerpt_separator: "\n\n"
 
 # Outputting
 # /:categories/:year/:month/:day/:title.html
-permalink: /:categories/:year-:month-:day-:title.html
+#permalink: /:categories/:year-:month-:day-:title.html
 
 github:
     versions:
