@@ -1,4 +1,8 @@
 # Sublime Text 3 LiveReload and Markdown Preview
+
+## 为什么不用 MacDown
+因为不支持文件夹啊！
+
 ## LiveReload
 
 ### 每次开启 Sublime ，都需要启动 LiveReload
