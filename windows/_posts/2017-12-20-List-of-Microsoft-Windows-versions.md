@@ -1,5 +1,6 @@
 
 # List of Microsoft Windows versions
+
 Name | Release date | Release version | Last build | Extended Support End Date
 ---- | ------------ | --------------- | ---------- | -------------------------
 Windows Server 2016 | 2016-10-15 | NT 10.0 |   | 2027-01-11
