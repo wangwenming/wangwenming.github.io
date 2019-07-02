@@ -3,7 +3,8 @@
 ***Homebrew***是***Ruby***开发的。
 
 ### 常用命令
-```
+
+```bash
 # 查看版本
 $ $ brew --version
 Homebrew 2.1.6
@@ -36,11 +37,28 @@ $ brew untap caskroom/cask
 $ brew untap caskroom/versions
 ```
 
+```bash
+ brew doctor                        # 自检
+ brew update                        # 更新brew可安装包，建议每次执行一下，会同时更新 Homebrew 本身
+ brew search php55                  # 搜索php5.5
+ brew tap josegonzalez/php          # 安装扩展<gihhub_user/repo>   
+ brew tap                           # 查看安装的扩展列表
+ brew install php55                 # 安装php5.5
+ brew remove  php55                 # 卸载php5.5
+ brew upgrade php55                 # 升级php5.5
+ brew options php55                 # 查看php5.5安装选项
+ brew info    php55                 # 查看php5.5相关信息
+ brew home    php55                 # 访问php5.5官方网站
+ brew services list                 # 查看系统通过 brew 安装的服务
+ brew services cleanup              # 清除已卸载无用的启动配置文件
+ brew services restart php55        # 重启php-fpm
+```
+
 ### Taps (third-party repositories)
 
 查看第三方 Tap（按2019-07-02 Homebrew 2.1.6，默认就是如下几个，够了）
 
-```
+```bash
 $ brew tap
 homebrew-cask
 homebrew-cask-versions
@@ -50,7 +68,7 @@ homebrew-services
 
 添加第三方 Tap
 
-```
+```bash
 $ brew tap <user/repo> 
 ```
 
@@ -62,7 +80,7 @@ $ brew tap <user/repo>
 
 命令基本都是 ```brew cask``` 开始。搜索还是用 ```brew search``` ，搜出的结果如：
 
-```
+```bash
 ==> Casks
 google-chrome
 homebrew/cask-versions/google-chrome-beta
@@ -135,7 +153,7 @@ Cask有两个源头：
 
 ### 安装 Java8
 
-```
+```bash
 # brew不包含 Java，Cask 提供了 java6(Apple Java 6) 和 Java11 Java (默认的Java12版本) java-beta  3个 OpenJDK 选项
 $ brew search java
 ==> Casks
