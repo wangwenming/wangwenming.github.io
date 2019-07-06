@@ -153,6 +153,10 @@ Cask有两个源头：
 
 ### 安装 Java8
 
+> Oracle 对 Java 8 的官方支持时间持续到 2020 年 12 月，之后将不再为个人桌面用户提供 Oracle JDK 8 的修复更新；在 2019 年 1 月之后，不再提供免费的商业版本更新，届时想要继续获得 Oracle 的商业支持和维护，需付费订阅。
+
+细节参考 [Java8 not working anymore #7253](https://github.com/Homebrew/homebrew-cask-versions/issues/7253) 
+
 ```bash
 # brew不包含 Java，Cask 提供了 java6(Apple Java 6) 和 Java11 Java (默认的Java12版本) java-beta  3个 OpenJDK 选项
 $ brew search java
